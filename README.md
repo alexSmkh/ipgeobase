@@ -1,8 +1,5 @@
 # Ipgeobase
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ipgeobase`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem will help you learn more about an ip address you are giving. It gives you information about a city, country, country code, latitude and longitude of a location.
 
 ## Installation
 
@@ -22,7 +19,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'ipgeobase'
+
+ip_meta = Ipgeobase.lookup('8.8.8.8')
+ip_meta.city # Ashburn
+ip_meta.country # United States
+ip_meta.country_code # US
+ip.lat # 39.03
+ip.lon # -77.5
+```
 
 ## Development
 

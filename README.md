@@ -1,3 +1,5 @@
+![main workflow](https://github.com/alexSmkh/ipgeobase/actions/workflows/main.yml/badge.svg)
+
 # Ipgeobase
 This gem will help you learn more about an ip address you are giving. It gives you information about a city, country, country code, latitude and longitude of a location.
 
